@@ -39,8 +39,7 @@ body
 #navbar{
     width: 100%;
    padding-left: 0;
-   /*
-     */
+  
 }
 
 
@@ -116,14 +115,14 @@ p{       display: block;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
      
-     font-size: 25px;
+     font-size: 22px;
     margin-top: 10px;
     letter-spacing: 0.5px;
+    line-height: 1.5em;
     padding-left: 3vw;
 }
 
 footer{
     text-align: center;
  margin-top: 10vh;
- padding-bottom: 10px;
-}
+ padding-bottom: 10px; }
