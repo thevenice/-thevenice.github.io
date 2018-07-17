@@ -76,9 +76,12 @@ body
     
    
     padding-bottom: 10px;
-      padding-top: 10vh;
+     
       margin-top: 35px;
+     /*
      min-height: 100vh;
+     padding-top: 10vh;
+     */
    
    
     background-color: rgb(255, 255, 255);
@@ -87,12 +90,12 @@ body
 .js{
     background-color: #FFEB3B;
 }
-#about, #skills{
+#about, #skills,#hero, #commits{
     min-height: 50vh;
     padding-top:10px;
 }
 
-#skills h3, #about h3{
+#skills h3, #about h3, #commits h3{
    
     font-weight: 600;
     font-size: 34px;
