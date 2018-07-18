@@ -23,7 +23,7 @@ body
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 450;
     box-shadow: none;
-    padding: 0.8rem 1rem;
+    padding: 0.5rem 1rem;
     box-sizing: inherit;
     background: 0 0!important;
     position: relative;
@@ -51,7 +51,7 @@ body
     position: fixed;
     border-bottom: 0.2px solid #dfdfdf;
     width: 99.8vw;
-    margin-top: -05vh;
+    margin-top: -002rem;
     height: 10vw;
   
 }
