@@ -6,9 +6,10 @@ body
 {
     align-content: center;
     font-weight: 300;
-
+    box-sizing: border-box;
     background-color: #fff;
 }
+/* ======================media ======================== */
 @media (max-width:800px){
 .container{
     padding-left: 5vw;
@@ -37,12 +38,12 @@ body
 
 
 }
-#navbar a, footer a, #commits a{
+#navbar a, footer a, #commits a, a{
     text-decoration: none;
     color: #383838;
 
 }
-#navbar a:hover, footer a:hover,#commits a:hover{
+#navbar a:hover, footer a:hover,#commits a:hover, a:hover{
     color: hsla(0, 0%, 52%, 1);
 
 }
@@ -90,24 +91,19 @@ body
     font-weight: 200;
 }
 #hero{
-     /*font-size: 8vh;*/
-
-
     padding-bottom: 10px;
-
       margin-top: 35px;
      /*
      min-height: 100vh;
      padding-top: 10vh;
      */
-
-
     background-color: rgb(255, 255, 255);
 
 }
 .js{
     background-color: #FFEB3B;
-}#hero, #about{
+}
+#hero, #about{
     min-height: 100vh;
     padding-top:50px;
 }
@@ -116,8 +112,8 @@ body
     padding-top:10px;
 }
 
-#skills h3, #about h3, #commits h3{
-
+h3{
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 34px;
     background-color: #FFEB3B;
@@ -143,8 +139,41 @@ p{       display: block;
     line-height: 1.5em;
     padding-left: 3vw;
 }
+/* gallery */
+.responsive {
+        width: 100%;
 
+    }
+    div.gallery{
+      border-radius:4px;
+      margin-top: 15px;
+      border:1px solid #9e9e9e;
+    }
+    div.gallery:hover{
+      border:2px solid  #9e9e9e;
+    }
+
+
+    div.gallery img{
+      padding-top: 2px;
+      width: 100%;
+      height: 50%;
+      text-align: center;
+    }
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    div.responsive  .desc {
+     background-color:  #38383;
+    }
+}
+/* gallery */
+
+/* ======================media ======================== */
 footer{
+  position: relative;
+  border-top: 0.2px solid #dfdfdf;
     text-align: center;
  margin-top: 10vh;
  padding-bottom: 10px; }
