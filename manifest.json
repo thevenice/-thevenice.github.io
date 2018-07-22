@@ -1,0 +1,15 @@
+{
+    "name":"Prakashpawar Intro",
+    "short_name":"Intro",
+    "icons":[
+        {
+            "src":"img/favicon.png",
+            "sizes":"image/png"
+        }
+    ],
+    "start_url":"/",
+    "display":"standalone",
+    "background_color":"#ffff",
+    "theme_color":"#FFEB3B"
+
+}
