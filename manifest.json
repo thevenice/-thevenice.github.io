@@ -1,10 +1,10 @@
 {
     "name":"Prakashpawar Intro",
-    "short_name":"Intro",
+    "short_name":"prakash",
     "icons":[
         {
-            "src":"img/favicon1.png",
-            "sizes":"50x50",
+            "src":"img/favicon3.png",
+            "sizes":"200x200",
             "type":"image/png"
         }
     ],
