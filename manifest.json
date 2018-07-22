@@ -3,8 +3,8 @@
     "short_name":"Intro",
     "icons":[
         {
-            "src":"img/favicon.png",
-            "sizes":"48x48",
+            "src":"img/favicon1.png",
+            "sizes":"50x50",
             "type":"image/png"
         }
     ],
