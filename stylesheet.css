@@ -1,179 +1,32 @@
-*{
-    margin:0;
-    padding:0;
-}
-body
-{
-    align-content: center;
-    font-weight: 300;
-    box-sizing: border-box;
-    background-color: #fff;
-}
-/* ======================media ======================== */
-@media (max-width:800px){
-.container{
-    padding-left: 5vw;
-    padding-right: 5vw;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: root;
-    margin: 0, 40px;
-}
-#navbar a{
+.is-infome {
+  /* background-size: 100px 80px;
+    background: url(../img/b.jpg); */
+  background: #ff0c3d;
 
-    font-size: 18px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 450;
-    float: left;
-    padding: 0.5rem 1rem;
-
-    background: 0 0!important;
-    position: relative;
-    text-align: center;
-    display: block;
-    /*inline-flex;
-    -ms-flex-direction: column;
-    flex-direction: column;*/
-
-
-
-
-}
-#navbar a, footer a, #commits a, a{
-    text-decoration: none;
-    color: #383838;
-
-}
-#navbar a:hover, footer a:hover,#commits a:hover, a:hover{
-    color: hsla(0, 0%, 52%, 1);
-
+  /* background: linear-gradient(-421deg, rgba(243, 205, 51, 1), #fbdf71); */
 }
 
-#navbar{
-    overflow: hidden;
-    background-color: #fff!important;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    border-bottom: 0.2px solid #dfdfdf;
-    width: 100%;
-    /*width: 99.8vw;
-    margin-top: -002rem;
-    height: 10vw; */
+/* section > .container {
+    padding-top: 30px;
+  } */
 
+.tile p,
+.tile li {
+  line-height: 2.12rem;
+  word-spacing: 0.15rem;
+  font-family: "gaegu", sans-serif;
 }
 
-
-
-#hero  h1{
-    display: block;
-    line-height:1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:700;
-   font-size: 44px;
-   color: #383838;
-    text-shadow: grey;
-
-    -webkit-margin-before: 0.67em;
-    -webkit-margin-after: 0.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-
-
-
-
-}
-#hero h2{
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    display: block;
-    font-weight: 200;
-}
-#hero{
-    padding-bottom: 10px;
-      margin-top: 35px;
-     /*
-     min-height: 100vh;
-     padding-top: 10vh;
-     */
-    background-color: rgb(255, 255, 255);
-
-}
-.js{
-    background-color: #FFEB3B;
-}
-#hero, #about{
-    min-height: 100vh;
-    padding-top:50px;
-}
- #skills, #commits{
-    min-height: 40vh;
-    padding-top:10px;
+.tile h3 {
+  color: #23d160;
+  font-family: "Homemade Apple", sans-serif;
 }
 
-h3{
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 34px;
-    background-color: #FFEB3B;
-
+.ox {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0.5px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-#skills ul{
-    font-size: 25px;
-    padding-top: 3vh;
 
-    line-height: 1.7;
-    letter-spacing: 0.5px;
-    padding-left: 5vw;
+.ox:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-p{       display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-
-     font-size: 22px;
-    margin-top: 10px;
-    letter-spacing: 0.5px;
-    line-height: 1.5em;
-    padding-left: 3vw;
-}
-/* gallery */
-.responsive {
-        width: 100%;
-
-    }
-    div.gallery{
-      border-radius:4px;
-      margin-top: 15px;
-      border:1px solid #9e9e9e;
-    }
-    div.gallery:hover{
-      border:2px solid  #9e9e9e;
-    }
-
-
-    div.gallery img{
-      padding-top: 2px;
-      width: 100%;
-      height: 50%;
-      text-align: center;
-    }
-    div.desc {
-        padding: 15px;
-        text-align: center;
-    }
-    div.responsive  .desc {
-     background-color:  #38383;
-    }
-}
-/* gallery */
-
-/* ======================media ======================== */
-footer{
-  position: relative;
-  border-top: 0.2px solid #dfdfdf;
-    text-align: center;
- margin-top: 10vh;
- padding-bottom: 10px; }
