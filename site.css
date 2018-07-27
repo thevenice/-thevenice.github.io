@@ -1,9 +1,10 @@
 .is-infome {
   /* background-size: 100px 80px;
   background: url(../img/b.jpg); */
-  background: #ff0c3d;
-
-  /* background: linear-gradient(-421deg, rgba(243, 205, 51, 1), #fbdf71); */
+  /* background: #ff0c3d; */
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(-421deg, #2366e4, #5000ec);
 }
 
 /* section > .container {
@@ -12,14 +13,18 @@
 
 .tile p,
 .tile li {
+  font-size: 18px;
   line-height: 2.12rem;
   word-spacing: 0.15rem;
-  font-family: "gaegu", sans-serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .tile h3 {
   color: #23d160;
-  font-family: "Homemade Apple", sans-serif;
+  font-size: 32px;
+  font-weight: 100;
+  word-spacing: 0.15rem;
+  font-family: "Merienda", cursive;
 }
 
 .ox {
