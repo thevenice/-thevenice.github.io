@@ -1,12 +1,12 @@
-.has-bg-img {
+/* .has-bg-img {
   background: url("./img/bg2.jpg") center center;
   background-size: cover;
-}
+} */
 
 .is-infome {
   font-weight: 100;
   font-family: "Poppins", sans-serif;
-  /* background: linear-gradient(-421deg, #2366e4, #5000ec); */
+  background: linear-gradient(-421deg, #2366e4, #5000ec);
 }
 
 /* section > .container {
