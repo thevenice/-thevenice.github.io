@@ -1,10 +1,13 @@
+.has-bg-img {
+  background: url("https://images.unsplash.com/photo-1529698719798-147db6e24a84?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bef1aa4518a0115d66965a1d09a2ea0d&auto=format&fit=crop&w=1350&q=80")
+    center center;
+  background-size: cover;
+}
+
 .is-infome {
-  /* background-size: 100px 80px;
-  background: url(../img/b.jpg); */
-  /* background: #ff0c3d; */
   font-weight: 100;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(-421deg, #2366e4, #5000ec);
+  /* background: linear-gradient(-421deg, #2366e4, #5000ec); */
 }
 
 /* section > .container {
