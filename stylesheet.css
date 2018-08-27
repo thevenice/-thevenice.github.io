@@ -1,0 +1,32 @@
+.is-infome {
+  /* background-size: 100px 80px;
+    background: url(../img/b.jpg); */
+  background: #ff0c3d;
+
+  /* background: linear-gradient(-421deg, rgba(243, 205, 51, 1), #fbdf71); */
+}
+
+/* section > .container {
+    padding-top: 30px;
+  } */
+
+.tile p,
+.tile li {
+  line-height: 2.12rem;
+  word-spacing: 0.15rem;
+  font-family: "gaegu", sans-serif;
+}
+
+.tile h3 {
+  color: #23d160;
+  font-family: "Homemade Apple", sans-serif;
+}
+
+.ox {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0.5px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.ox:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
