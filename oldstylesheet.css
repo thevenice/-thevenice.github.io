@@ -100,7 +100,7 @@ a:hover {
   color: #383838;
   background: linear-gradient(rgba(253, 253, 253, 0.78), rgba(255, 255, 255, 0)),
     url(./img/mourad-saadi-314319-unsplash.jpg) no-repeat;
-  background-size: 480px 640px;
+  background-size: 480px 100vh;
   padding: 30px;
   margin-top: 35px;
   background-color: rgb(255, 255, 255);
