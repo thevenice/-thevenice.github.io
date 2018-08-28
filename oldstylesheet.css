@@ -129,8 +129,8 @@ h3 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 34px;
-  background-color: #b3e5fc;
-  color: #03a9f4;
+  background-color: #d1c4e9;
+  color: #673ab7;
 }
 #skills ul {
   font-size: 25px;
@@ -238,8 +238,8 @@ div.desc {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-auto-flow: row;
-    border-bottom: 1px solid #b3e5fc;
-    border-top: 1px solid #b3e5fc;
+    border-bottom: 1px solid #d1c4e9;
+    border-top: 1px solid #d1c4e9;
   }
 
   #id-certificates {
