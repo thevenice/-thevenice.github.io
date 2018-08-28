@@ -220,7 +220,7 @@ div.desc {
   #about,
   #skills,
   #commits {
-    min-height: 50vh;
+    min-height: 30vh;
     margin: auto;
   }
 
