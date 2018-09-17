@@ -209,8 +209,11 @@ div.desc {
   #hero {
     min-width: 100vw;
     min-height: 100vh;
-    background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.22)),
-      url(./img/octavian-rosca-388008-unsplash.jpg) center;
+    background: linear-gradient(
+        rgba(125, 62, 236, 0.43),
+        rgba(48, 27, 255, 0.48)
+      ),
+      url(./img/DPpro.jpg) no-repeat;
     color: #fff;
     /* image by : Photo by Octavian Rosca on Unsplash */
   }
@@ -253,7 +256,7 @@ div.desc {
 /*================ web =========================*/
 
 /* only dp */
-@media screen and (max-width: 900px) and (min-width: 480px) {
+/* @media screen and (max-width: 900px) and (min-width: 480px) {
   #hero {
     background: linear-gradient(
         rgba(125, 62, 236, 0.43),
@@ -261,5 +264,5 @@ div.desc {
       ),
       url(./img/DPpro.jpg) no-repeat;
   }
-}
+} */
 /* only dp */
