@@ -46,8 +46,8 @@ footer {
   text-align: center;
   display: block;
   /*inline-flex;
-      -ms-flex-direction: column;
-      flex-direction: column;*/
+        -ms-flex-direction: column;
+        flex-direction: column;*/
 }
 #navbar a,
 footer a,
@@ -96,17 +96,24 @@ a:hover {
   -webkit-margin-end: 0px;
   display: block;
   font-weight: 200;
+  margin-top: 190px;
+  line-height: 2.7rem;
 }
 #hero {
-  color: #383838;
-  background: linear-gradient(rgba(253, 253, 253, 0.78), rgba(255, 255, 255, 0)),
-    url(./img/mourad-saadi-314319-unsplash.jpg) no-repeat;
-  background-size: 480px 100vh;
-  padding: 30px;
-  margin-top: 35px;
+  color: #fff;
+  background: linear-gradient(rgba(125, 62, 236, 0.43), rgba(48, 27, 255, 0.48)),
+    url(./img/DPpro.jpg) no-repeat;
+  background-size: auto 100vh;
+  /* padding: 30px;
+  margin-top: 35px; */
   background-color: rgb(255, 255, 255);
 }
+.h_wrap {
+  padding: 30px;
+  margin-top: 35px;
+}
 .js {
+  color: #000;
   background-color: #ffeb3b;
 }
 #hero,
@@ -126,13 +133,16 @@ a:hover {
 
 h3 {
   text-align: center;
+  justify-content: center;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 34px;
   background-color: #d1c4e9;
   color: #673ab7;
 }
-#skills ul {
+#skills ul,
+#commits ul {
+  cursor: pointer;
   font-size: 25px;
   line-height: 1.7;
   letter-spacing: 0.5px;
@@ -216,6 +226,10 @@ div.desc {
   }
   .h_wrap {
     padding: 0px 40px;
+  }
+  .h_wrap {
+    padding: 30px;
+    margin-top: 35px;
   }
   #about,
   #skills,
