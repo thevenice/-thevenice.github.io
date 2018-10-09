@@ -1,0 +1,650 @@
+:root {
+  --purple: #9143fd;
+  --red: #ff5252;
+  --yellow: #ffbe4e;
+  --black: #21262c;
+  --black2: #212121;
+  --grey: #7474749e;
+  --greyLight: #69707b;
+  --greenyellow: rgba(172, 255, 47, 0.479);
+  --border: #e0e0e0;
+  --pFull: 1rem;
+}
+/*  WHOLE APP */
+body,
+html {
+  overflow-x: hidden;
+  min-width: 300px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-font-smoothing: antialiased;
+}
+/*  WHOLE APP */
+/* Universal Wrapper */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: auto;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  transition: font-size 0.3s linear;
+  grid-row-gap: 2rem;
+}
+.Loading {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+}
+/* .
+
+.
+.
+.*/
+/* NAVBAR--------------------------------- */
+.navbar {
+  /* border-bottom: 1px solid var(--border); */
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 2fr 0.5fr;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+  z-index: 111;
+  height: 100px;
+  position: relative;
+}
+
+.navbar > div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 1px solid var(--border); */
+  padding: 0;
+  text-transform: capitalize;
+}
+.navbar > ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(10%, 90px));
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar > ul > a,
+.navbar > div > a {
+  /* background-color: #fff; */
+  display: block;
+  text-decoration: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar > div > a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 42px;
+  width: 100%;
+  font-weight: 600;
+  color: var(--purple);
+}
+.navbar > div > a > span {
+  color: var(--black2);
+}
+
+.navbar > ul > a {
+  font-size: 1.2rem;
+  margin: 0 5px;
+  color: var(--grey);
+  transition: color 0.3s ease;
+}
+.navbar > ul > a:hover {
+  color: var(--greyLight);
+}
+/* NAVBAR END--------------------------------- */
+/* 
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+*/
+/* Universal Wrapper end */
+.cardContainer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+}
+/* //remove outline from buttons */
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* primary focus remove */
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: none;
+}
+.kard:hover {
+  transform: translateY(-1px);
+  transition: 0.2s ease;
+  box-shadow: 0px 3px 0px 0px #272727;
+}
+/* ------------------------------------------------------------footer--------------------------------------  */
+
+.footer {
+  text-align: center;
+  background: #fff;
+  color: var(--black);
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-template-columns: 1fr;
+  position: relative;
+  bottom: 0;
+
+  /* border: 1px solid gold; */
+}
+
+/* FAKE FOOTER CONTENT BORDER */
+.f1:before,
+.f2:before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 80vw;
+  padding-bottom: 1rem;
+  border-top: 1px solid var(--border);
+}
+/* FAKE FOOTER CONTENT BORDER END */
+
+.f1 > .f1a > h2,
+.f2 > .f2a > h2 {
+  color: var(--black);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.f1 > .f1b > p {
+  color: var(--black);
+  font-size: 0.8rem;
+  padding: 0 1rem;
+  line-height: 1rem;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+/* .container > f2  */
+
+.footContainer {
+  padding: 5px 10px;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+/* FOOTER GRID PART 2 CSS */
+
+.f2 {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-gap: 0;
+  padding: 0;
+}
+
+/* font awesome icon css */
+.f2b > .iconRow > a > i {
+  color: var(--greyLight);
+}
+
+.f2b > .iconRow > a > i:hover {
+  color: var(--black);
+  transition: 0.2s ease-in;
+}
+.f2b > .iconRow > i:focus {
+  color: var(--black);
+}
+.iconBtn {
+  margin: 0 1rem;
+  align-content: center;
+}
+/* font awesome icon css end */
+.f2c {
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+  color: var(--black);
+  margin: 1rem 0;
+  font-size: 0.7rem;
+  text-align: center;
+  padding-bottom: 0;
+}
+/* FOOTER GRID PART 2 CSS end */
+/* ------------------------------------------------------------footer end --------------------------------------  */
+/* 
+.
+.
+
+.
+.
+
+.
+.
+.
+.
+*/
+/* ABOUT ----------------------------------------------------- */
+/* Parent */
+.AGP {
+  display: grid;
+  /* grid-template-rows: repeat(3, 0.5fr); */
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.AGP > p {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.AFLast {
+  display: grid;
+  grid-column-start: 2;
+  padding: 0;
+  grid-row-gap: 2rem;
+}
+/* Parent End*/
+
+/* AG1 */
+/* contains dp and about summary */
+.AG1 {
+  /* border: 4px solid gold; */
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-gap: 2rem;
+}
+
+/* AG1s children img and Summary */
+/* AG1A has img only */
+.AG1A > img {
+  width: 300px;
+  height: auto;
+  transition: width 0.3s linear;
+}
+/* AG1B has summary only */
+.AG1B {
+  /* background-color: greenyellow; */
+  text-align: left;
+  padding: 0 1rem;
+  color: var(--greyLight);
+}
+
+.AG1B1 {
+  color: #000;
+  transition: background-color 0.5s ease;
+
+  font-family: "Abril Fatface", cursive;
+  font-size: 4rem;
+  line-height: 0.95;
+  font-weight: 600;
+}
+.AG1B1:hover {
+  background-color: var(--greenyellow);
+}
+.AG1B2 {
+  font-size: 1.2rem;
+}
+
+/* AG1s children img and Summary End */
+/* AG1 end */
+
+/* AG2 */
+.AG2 {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+}
+/* AG2 Children */
+.AG2 > h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.AG2 > p,
+.AG3A1_child > p {
+  transition: background-color 0.2s ease;
+}
+.AG2:hover > p,
+.AG3A1_child:hover > p {
+  background-color: var(--greenyellow);
+}
+/* AG2 Children End */
+.AG2B {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  grid-template-rows: 1fr;
+}
+.AG2B > div {
+  margin: 0.5rem 1rem;
+  text-align: center;
+}
+.AG2B > div > i {
+  color: var(--grey);
+  transition: color 0.2s ease-in;
+}
+.AG2B > div:nth-child(1) > i:hover {
+  color: orange;
+}
+.AG2B > div:nth-child(2) > i:hover {
+  color: lightskyblue;
+}
+.AG2B > div:nth-child(3) > i:hover {
+  color: greenyellow;
+}
+.AG2B > div:nth-child(4) > i:hover {
+  color: var(--purple);
+}
+.AG2B > div > i:hover {
+  color: var(--black);
+}
+/* AG2 end */
+
+/* AG3 */
+
+.AG3A1 {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-gap: 10px;
+  text-align: left;
+  align-content: center;
+}
+.AG3A1_child {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 0 2px;
+  margin: 0 auto;
+}
+.AG3A1_child > h4 {
+  color: var(--grey);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.AG3A1_child > h1 {
+  color: #000;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 0;
+}
+.AG3A1_child > p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding-top: 0;
+}
+
+/* AG3 end */
+
+/* ABOUT END ----------------------------------------------------- */
+/* 
+
+.
+
+.
+.
+.
+.
+.
+.
+BLOG POST
+.
+.
+.
+.
+..
+
+.
+.
+.
+.
+.
+.
+*/
+/* BLOG POST */
+/* Blog1 */
+/* temp */
+/* .wrapper,
+.Blog1,
+.Blog {
+  border: 1px solid gold;
+} */
+/* temp */
+
+.BlogList > .BlogList_a > a {
+  outline: none !important;
+  text-decoration: none;
+  color: inherit;
+}
+.BlogList {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 9fr 1fr;
+  /* grid-column-start: 2; */
+  grid-template-rows: auto;
+  grid-column-gap: 0.5rem;
+}
+.BlogList > div {
+  grid-column: 2/3;
+}
+.Blog1_child {
+  cursor: pointer;
+  /* box-sizing: content-box; */
+  transition: all 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition: transform 0.3s ease-in-out;
+  grid-row-start: auto;
+  /* box-shadow: 0px 1px 1px 0px #e0e0e0; */
+  /* border-radius: 8px; */
+  margin: 5rem auto;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin: 40px 20px;
+  align-content: center;
+  max-width: 400px;
+}
+.Blog1_child:hover {
+  box-shadow: 0px 1px 20px 1px #e0e0e0;
+  transform: translateY(-10px);
+}
+.Blog1_child > img {
+  /* border-top-left-radius: 8px;
+  border-top-right-radius: 8px; */
+  box-sizing: content-box;
+  width: 100%;
+  max-height: 200px;
+}
+.Blog1_child > h1 {
+  font-size: 0.9rem;
+}
+/* .Blog1_child:hover > h1 {
+  color: #fff;
+} */
+.Blog1_child > p {
+  padding: 0 0.3rem;
+  font-size: 0.6rem;
+}
+/* Blog End */
+
+/* 
+.
+.
+MEDIA QUERIES BELOW
+.
+.
+.
+.
+.
+*/
+
+/* Ipads + */
+@media only screen and (min-width: 768px) {
+  /* 768px Navbar */
+  .wrapper {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  .navbar {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr minmax(100px, 300px);
+    grid-column-gap: 15rem;
+    border: none;
+  }
+  .navbar > div {
+    font-weight: 700;
+    border: none;
+    text-align: start;
+    justify-content: start;
+    padding-left: 2rem;
+  }
+  .navbar > ul {
+    padding: 0;
+  }
+  .navbar > ul > a {
+    font-size: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding: 0;
+  }
+
+  /* 768px Navbar End */
+  /* 
+  .
+  .
+  
+  ..
+  .
+  
+  .
+  */
+  /* 768px About */
+  .AG1A {
+    text-align: start;
+    padding: 0 1rem;
+  }
+  .AG1B2 {
+    font-size: 1.3rem;
+  }
+
+  .AG3A1_child > h1 {
+    font-size: 1.8rem;
+  }
+  .AG3A1_child > p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+  /* 768px About end */
+  /* BLOG */
+  .BlogList > div {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-auto-columns: 1fr; */
+  }
+
+  /* BLOG end */
+
+  /* 768px About End */
+}
+/* Desktops and Lappies */
+@media only screen and (min-width: 900px) {
+  /* 1080px About */
+  /* Parent divs columns */
+  .wrapper {
+    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-gap: 1rem;
+  }
+  .AFLast {
+    margin: 0 auto;
+    margin-right: 2rem;
+    margin-left: 0;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-template-rows: 2fr 1fr 1fr;
+  }
+  /* Parent divs columns End*/
+  .AFLast1 > .AFLast1 > * {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .AG1 {
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.8fr 1fr;
+  }
+  .AG1A {
+    text-align: unset;
+    padding: 0;
+  }
+  .AG1A > img {
+    width: 100%;
+    max-width: 500px;
+    padding: 0;
+    margin: 0;
+  }
+  .AG1B1 {
+    font-size: 4rem;
+    margin-top: 0;
+  }
+
+  .AG2 {
+    padding: 0.5rem 0;
+  }
+  .AG2 > h3 {
+    font-size: 2rem;
+  }
+  .AG2B {
+    width: 70%;
+  }
+  .Blog1_child {
+    grid-row-start: 2;
+  }
+  .AG3A1_child > h1 {
+    font-size: 2rem;
+  }
+  .AG3A1_child > p {
+    line-height: 1.6;
+    font-size: 21px;
+  }
+
+  /* 1080px About End */
+}
+
+/* Ipads to Desktops FONTS */
+
+/* TEMP */
+/* .AGP > *,
+.AGP > * > * {
+  border: 1px solid gold;
+}
+
+.AFLast > *,
+.AFLast > * > * {
+  border: 1px solid gold;
+} */
+/* TEMP */
