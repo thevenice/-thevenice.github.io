@@ -1,23 +1,19 @@
 {
-    "name": "prakash-pawar",
-    "version": "0.1.0",
-    "private": true,
-    "homepage": "http://thevenice.github.io/myapp",
-    "dependencies": {
-      "react": "^16.5.2",
-      "react-dom": "^16.5.2",
-      "react-scripts": "1.0.17"
-    },
-    "scripts": {
-      "start": "npm start",
-      "build": "npm build",
-      "test": "npm test --env-jsdom",
-      "eject": "npm eject",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
-    },
-    "devDependencies": {
-      "gh-pages": "^2.0.1"
-    }
+  "name": "prakash-pawar",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://thevenice.github.io/myapp",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "npm start",
+    "build": "npm build",
+    "test": "npm test --env-jsdom",
+    "eject": "npm eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
-  
+}
